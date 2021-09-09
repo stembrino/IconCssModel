@@ -1,0 +1,24 @@
+:root {
+  --icon-size: 50px;
+}
+
+.icon {
+  display: block;
+  margin-bottom: 10px;
+  height: var(--icon-size);
+  width: var(--icon-size);
+  border-radius: 10000px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+
+#test1 {
+  background-image: url("./assets/icons/test1.png");
+}
+
+#test2 {
+  background-image: url("./assets/icons/test2.jpg");
+}
